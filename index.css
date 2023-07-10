@@ -1,0 +1,132 @@
+*{
+    font-family: sans-serif;
+}
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav{
+    margin-top: 2%;
+    text-align: end;
+    background-color: white;
+}
+#nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+#nav li{
+    display: inline;
+    margin: 1% 2%;
+}
+#nav ul li a:hover{
+    color: gray;
+}
+#nav ul li button{
+    padding: 10px 20px;
+    background-color: gray;
+    border: none;
+    color: white;
+    border-radius: 20px;
+}
+.main .left{
+    margin-left: 80px;
+}
+.main .left h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+.main .left input{
+    padding: 1% 2%;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 30px;
+    border: 1px solid grey;
+    text-align: center;
+}
+.main .left i{
+    font-size: 25px;
+   position: relative;
+   left: 4%;
+   top: 10%;
+}
+.main{
+    display: flex;
+}
+.main .right{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.main .right .flex{
+    display: flex;
+}
+.main .right .flex2{
+    display: flex;
+}
+.right #box{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(97, 94, 233);
+    color: white;
+    border-radius: 10px;
+    margin-left: 80px;
+}
+.right  i{
+    background-color: white;
+    color: blue;
+    padding: 20px;
+    border-radius: 50%;
+    position: relative;
+    top: 40px;
+    left: 30%;
+    font-size: 25px;
+}
+.right p{
+    position: relative;
+    top: 80px;
+    left: 20%;
+}
+.right #box2{
+    height: 150px;
+    width: 150px;
+    background-color: #4B83FF;
+    color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.right #box3{
+    height: 150px;
+    width: 150px;
+    background-color: #FFAC30;
+    color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.flex2{
+    margin-top: 30px;
+}
+.flex2 #box4{
+    height: 150px;
+    width: 150px;
+    background-color: #FF651B;
+    color: white;
+    border-radius: 10px;
+    margin-left: 80px;
+
+}
+.flex2 #box5{
+    height: 150px;
+    width: 150px;
+    background-color: #FF6B6B;
+    color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.flex2 #box6{
+    height: 150px;
+    width: 150px;
+    background-color: #6BD462;
+    color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+}
